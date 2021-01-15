@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    animation: colorChange 25s ease infinite;
+}
+
+@keyframes colorChange {
+    0%{ background-color: #fff;}
+    4%{ background-color: #fffbb1; }
+    8%{ background-color: #f8ee5b;}
+    12%{ background-color: #f5e617; }
+    16%{ background-color: #f4ae00;}
+    20%{ background-color: #dab100; }
+    24%{ background-color: #cfea7f;}
+    28%{ background-color: #e0e612; }
+    32%{ background-color: #cadb03;}
+    36%{ background-color: #7eba00; }
+    40%{ background-color: #017337;}
+    44%{ background-color: #a1d9d6; }
+    48%{ background-color: #48d6c8;}
+    52%{ background-color: #0193de; }
+    56%{ background-color: #007c71;}
+    60%{ background-color: #594fbf; }
+    64%{ background-color: #f6c1db;}
+    68%{ background-color: #ff9dc3; }
+    72%{ background-color: #dd127b;}
+    76%{ background-color: #e026a3; }
+    80%{ background-color: #7a1453;}
+    84%{ background-color: #e2ded3; }
+    88%{ background-color: #c8cfc8;}
+    92%{ background-color: #949492;}
+    96%{ background-color: #333;}
+    100%{ background-color: #000; }
+}
